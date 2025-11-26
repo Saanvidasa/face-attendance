@@ -1,0 +1,88 @@
+/* ============================
+   CAMERA PAGE
+============================ */
+
+.camera-container {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Video Preview */
+.camera-video {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 12px;
+  border: 3px solid #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-name {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #aaa;
+  margin-bottom: 12px;
+}
+
+.input-name:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 20px;
+  margin: 6px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-register {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-register:hover {
+  background: #45a049;
+}
+
+.btn-mark {
+  background: #2196f3;
+  color: white;
+}
+
+.btn-mark:hover {
+  background: #1a86d9;
+}
+
+.btn-capture {
+  background: #9c27b0;
+  color: white;
+}
+
+.btn-capture:hover {
+  background: #7b1fa2;
+}
+
+/* Captured Image */
+.captured-image-box {
+  margin-top: 20px;
+}
+
+.captured-image {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 12px;
+  border: 2px solid #9c27b0;
+}

@@ -1,0 +1,77 @@
+/* ============================
+   DASHBOARD CONTAINER
+============================ */
+
+.dashboard-container {
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.12);
+}
+
+/* Heading */
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Stats Row */
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.stat-box {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 12px;
+  width: 28%;
+  min-width: 200px;
+  text-align: center;
+  border-left: 6px solid #4caf50;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+/* Attendance Table */
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.attendance-table th {
+  background: #4caf50;
+  color: white;
+  padding: 12px;
+}
+
+.attendance-table td {
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+.attendance-table tr:hover {
+  background: #f1f1f1;
+  transition: 0.2s;
+}
+
+/* Chart Container */
+.chart-container {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 14px;
+}

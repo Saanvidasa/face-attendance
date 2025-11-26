@@ -1,0 +1,74 @@
+/* ============================
+   GLOBAL STYLES
+============================ */
+
+body {
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============================
+   PAGE CONTAINER
+============================ */
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ============================
+   HEADING
+============================ */
+
+.main-title {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* ============================
+   TABS
+============================ */
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.tab-btn {
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background: #eeeeee;
+  color: #333;
+  font-weight: 500;
+}
+
+.tab-btn:hover {
+  background: #dcdcdc;
+}
+
+.tab-active {
+  background: #4caf50 !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+/* Tab content wrapper */
+.tab-content {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
